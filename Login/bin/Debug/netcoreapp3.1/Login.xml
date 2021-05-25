@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Login</name>
+    </assembly>
+    <members>
+        <member name="M:Login.Controllers.LoginController.PostLogin(Login.Domain.Models.Request.LoginRequest)">
+            <summary>
+            Inserir os dados para popular a tab
+            </summary>
+            <param name="loginRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Login.Controllers.LoginController.Put(Login.Domain.Models.Request.LoginUpdateRequest)">
+            <summary>
+            Fazer atualização dos dados de cadastro (nome, email ou senha) por Id
+            </summary>
+            <param name="updateRequest"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Login.Controllers.LoginController.GetLoginById(System.Int32)">
+            <summary>
+            Buscar dados de cadastro por ID do usuário
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Login.Controllers.LoginController.GetAll">
+            <summary>
+            Buscar todos os dados de cadastro existentes na tab
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Login.Controllers.LoginController.DeleteDados(System.Int32)">
+            <summary>
+            Deletar todos os dados de um usuário
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
