@@ -123,6 +123,7 @@ namespace Login.Controllers
                 return BadRequest(new { message = "Não foi possível deletar dados do usuário. Conatte o administrador." });
             }
         }
+       // public 
     }
 
 
